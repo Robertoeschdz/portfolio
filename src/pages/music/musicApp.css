@@ -1,0 +1,19 @@
+.colorb {
+  background-color: #cbd5e1;
+  height: 33vw;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 343px) {
+  .colorb {
+    height: 60vw;
+  }
+}
+
+@media screen and (min-width: 343px) and (max-width: 768px) {  
+  .image{    
+    height: auto;
+    width: 200px;    
+  }
+}

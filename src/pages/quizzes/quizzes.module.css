@@ -1,0 +1,24 @@
+.option {
+  background: #131313;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #434343, #131313);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #434343, #131313); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  color: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  font-size: 20px;
+}
+
+.selected {
+  background: #6441A5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.option:hover {
+  background-color: #195ec5;
+}
+
+.option:focus {
+  background-color: #6610f2;
+}

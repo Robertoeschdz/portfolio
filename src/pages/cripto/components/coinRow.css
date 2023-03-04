@@ -1,0 +1,15 @@
+.cripto-icon{
+    width: 5%;
+}
+
+@media screen and (max-width: 343px) {
+    .cripto-icon{
+        width: 15%;
+    }
+}
+  
+@media screen and (min-width: 343px) and (max-width: 768px) {
+    .cripto-icon{
+        width: 15%;
+    }
+}
