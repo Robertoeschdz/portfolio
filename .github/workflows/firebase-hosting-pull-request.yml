@@ -13,7 +13,8 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ROBERTOESCHZ }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ROBERTOESCHZ }}'          
+          projectId: robertoeschz
+        env:
           VITE_WEATHER_KEY: '${{ secrets.VITE_WEATHER_KEY }}'
           VITE_WEATHER_URL: '${{ secrets.VITE_WEATHER_URL }}'
-          projectId: robertoeschz
