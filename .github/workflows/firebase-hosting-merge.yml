@@ -16,5 +16,7 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ROBERTOESCHZ }}'
+          VITE_WEATHER_KEY: '${{ secrets.VITE_WEATHER_KEY }}'
+          VITE_WEATHER_URL: '${{ secrets.VITE_WEATHER_URL }}'
           channelId: live
           projectId: robertoeschz
