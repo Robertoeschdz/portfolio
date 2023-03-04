@@ -9,6 +9,7 @@ name: Deploy to Firebase Hosting on merge
 env:
   VITE_WEATHER_KEY: '${{ secrets.VITE_WEATHER_KEY }}'
   VITE_WEATHER_URL: '${{ secrets.VITE_WEATHER_URL }}'
+  VITE_APIKEY: '${{ secrets.VITE_WEATHER_URL }}'
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
