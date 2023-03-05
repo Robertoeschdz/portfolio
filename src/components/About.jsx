@@ -14,22 +14,22 @@ const About = () => {
         </div>
 
         <p className='text-xl mt-20'>
-          Hello! I'm Roberto, a junior full stack developer
-          passionate about technology and creating innovative solutions.
-          I love learning and keeping up with the latest trends and technologies,
-          and am constantly looking for new ways to improve my skills and knowledge.
+          ¡Hola! Soy Roberto, desarrollador junior full stack
+          apasionado por la tecnología y la creación de soluciones innovadoras.
+          Me encanta aprender y estar al día con las últimas tendencias y tecnologías,
+          y estoy constantemente buscando nuevas formas de mejorar mis habilidades y conocimientos.
         </p>
 
         <br />
 
         <p className='text-xl'>
-          My web development background spans both front-end and back-end,
-          and I have experience working with Es6, React, Node.js, Express,
-          and MongoDB.
+          Mi experiencia en desarrollo web abarca tanto front-end como back-end,
+          y tengo experiencia trabajando con Es6, React, Node.js, Express,
+          y MongoDB.
           <br />
           <br />
-          If you are looking for someone who is passionate about web development
-          and who is committed to their work, do not hesitate to contact me.
+          Si buscas a alguien apasionado por el desarrollo web
+          y que se comprometa con su trabajo, no dudes en contactar conmigo.
         </p>
       </div>
     </div>
