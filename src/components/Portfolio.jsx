@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import memory from '../assets/portfolio/memory.png'
-import delivery from '../assets/portfolio/delivery.png'
-import survey from '../assets/portfolio/survey.png'
-import weather from '../assets/portfolio/weather.png'
-import dino from '../assets/portfolio/dino.png'
-import cripto from '../assets/portfolio/cripto.png'
-import quizzes from '../assets/portfolio/quizzes.png'
-import music from '../assets/portfolio/music.png'
-import chat from '../assets/portfolio/chat.png'
+import memory from '../assets/portfolio/memory.webp'
+import delivery from '../assets/portfolio/delivery.webp'
+import survey from '../assets/portfolio/survey.webp'
+import weather from '../assets/portfolio/weather.webp'
+import dino from '../assets/portfolio/dino.webp'
+import cripto from '../assets/portfolio/cripto.webp'
+import quizzes from '../assets/portfolio/quizzes.webp'
+import music from '../assets/portfolio/music.webp'
+import chat from '../assets/portfolio/chat.webp'
 
 const Portfolio = () => {
   const portfolios = [
@@ -70,7 +70,7 @@ const Portfolio = () => {
 
   return (
     <div
-      name='portfolio'
+      name='portafolio'
       className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'
     >
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>

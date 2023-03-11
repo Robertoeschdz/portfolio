@@ -11,7 +11,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: 'https://www.linkedin.com/in/roberto-escobar-5004951a1',
+      href: 'https://www.linkedin.com/in/robertoeschdz',
       style: 'rounded-tr-md'
     },
     {
