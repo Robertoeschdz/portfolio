@@ -55,12 +55,12 @@ function Chat () {
                 </li>
               ))}
             </ul>
-          </form>
+            </form>
           : <form onSubmit={handleSetUsername} className='bg-zinc-900 p-10'>
             <h1 className='text-2xl font-bold my-2'>Select your username</h1>
             <input className='border-2 border-zinc-500 p-2 text-black w-full' type='text' onChange={e => setUsernameValue(e.target.value)} value={usernameValue} />
             <button className='bg-blue-500 p-2 mt-2 rounded'>send</button>
-          </form>}
+            </form>}
         <div style={{ height: '70vw' }} />
       </div>
     </div>

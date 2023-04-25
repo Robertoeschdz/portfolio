@@ -15,7 +15,7 @@ import MusicApp from './pages/music/MusicApp'
 import SurveyApp from './pages/survey/SurveysApp'
 import Survey from './pages/survey/components/Survey'
 import Responses from './pages/survey/components/Responses'
-// import Chat from './pages/chat/Chat'
+import Chat from './pages/chat/Chat'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -34,7 +34,7 @@ root.render(
       <Route path='/survey' element={<SurveyApp />} />
       <Route path='/survey/:id' element={<Survey />} />
       <Route path='/survey/:id/responses' element={<Responses />} />
-      {/* <Route path='/chat' element={<Chat />} /> */}
+      <Route path='/chat' element={<Chat />} />
     </Routes>
   </BrowserRouter>
 )
