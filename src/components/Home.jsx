@@ -15,7 +15,7 @@ const Home = () => {
             ¡Hola! Soy un Full Stack Developer
           </h2>
           <p className='text-gray-500 py-4 max-w-md'>
-            Tengo 2 años de experiencia desarrollando software para la web.
+            Tengo 3 años de experiencia desarrollando software para la web.
             Durante este tiempo, he tenido la oportunidad de trabajar en proyectos
             emocionantes y desafiantes que me han permitido mejorar mis habilidades y
             conocimientos en programación, diseño web y resolución de problemas.
