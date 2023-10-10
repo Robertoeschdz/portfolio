@@ -156,6 +156,7 @@ export default function DeliveryApp () {
     <div className='bg-gray-900 text-white'>
       <GoHome />
       <div className='p-5'>
+        <p>Select your delivery time</p>
         {complete ? <h2 className='text-green-600 text-xl'>Hour added </h2> : ''}
         {alert ? <h2 className='text-red-600 text-xl'>Please select one hour</h2> : ''}
         {crowded ? <h2 className='text-red-600 text-xl'>All couriers are busy, please select another hour</h2> : ''}
@@ -175,6 +176,7 @@ export default function DeliveryApp () {
         {availableDealers !== null
           ? availableDealers !== 0 ? <DeliveryIcon availableDealers={availableDealers} /> : <p className='text-red-600 text-xl'>No dealers available at this hour</p>
           : ''}
+        <p>Select your delivery time</p>
         <button className='bg-green-400 mt-5 py-2.5 px-8 rounded text-black hover:bg-green-500' onClick={handleSubmit}>Select</button>
       </div>
     </div>
