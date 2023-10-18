@@ -1,6 +1,10 @@
 import React from 'react'
+import text from '../assets/portfolio/text.json'
+import { useGlobalContext } from '../context'
 
 const About = () => {
+  const { language } = useGlobalContext()
+
   return (
     <div
       name='about'
@@ -14,22 +18,22 @@ const About = () => {
         </div>
 
         <p className='text-xl mt-20'>
-          ¡Hola! Soy Roberto, desarrollador junior full stack
-          apasionado por la tecnología y la creación de soluciones innovadoras.
-          Me encanta aprender y estar al día con las últimas tendencias y tecnologías,
-          y estoy constantemente buscando nuevas formas de mejorar mis habilidades y conocimientos.
+          {
+            language === 'english' ? text.english.about1 : text.spanish.sobre1
+          }
         </p>
 
         <br />
 
         <p className='text-xl'>
-          Mi experiencia en desarrollo web abarca tanto front-end como back-end,
-          y tengo experiencia trabajando con Es6, React, Node.js, Express,
-          y MongoDB.
+          {
+            language === 'english' ? text.english.about2 : text.spanish.sobre2
+          }
           <br />
           <br />
-          Si buscas a alguien apasionado por el desarrollo web
-          y que se comprometa con su trabajo, no dudes en contactar conmigo.
+          {
+            language === 'english' ? text.english.about3 : text.spanish.sobre3
+          }
         </p>
       </div>
     </div>

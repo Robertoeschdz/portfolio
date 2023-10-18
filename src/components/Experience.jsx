@@ -9,6 +9,8 @@ import node from '../assets/node.png'
 import express from '../assets/express.webp'
 import mongodb from '../assets/mongodb.png'
 import github from '../assets/github.png'
+import text from '../assets/portfolio/text.json'
+import { useGlobalContext } from '../context'
 
 const Experience = () => {
   const techs = [
@@ -68,6 +70,8 @@ const Experience = () => {
     }
   ]
 
+  const { language } = useGlobalContext()
+
   return (
     <div
       name='experiencia'
@@ -76,9 +80,15 @@ const Experience = () => {
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
         <div className='mt-64'>
           <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>
-            Experiencia
+            {
+              language === 'english' ? text.english.experience : text.spanish.experiencia
+            }
           </p>
-          <p className='py-6'>Estas son las tecnologías con las que he trabajado</p>
+          <p className='py-6'>
+            {
+              language === 'english' ? text.english.technologies : text.spanish.tecnologias
+            }
+          </p>
         </div>
 
         <div className='w-full grid grid-cols-1 min-[400px]:grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>

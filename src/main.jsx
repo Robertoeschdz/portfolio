@@ -16,25 +16,28 @@ import SurveyApp from './pages/survey/SurveysApp'
 import Survey from './pages/survey/components/Survey'
 import Responses from './pages/survey/components/Responses'
 import Chat from './pages/chat/Chat'
+import AppContext from './context'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-  <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<App />} />
-      <Route path='/weather' element={<Weather />} />
-      <Route path='/dino' element={<Dino />} />
-      <Route path='/cripto' element={<Cripto />} />
-      <Route path='/quiz' element={<Quiz />} />
-      <Route path='/quiz/addquestion' element={<AddQuestion />} />
-      <Route path='/delivery' element={<DeliveryApp />} />
-      <Route path='/memorygame' element={<MemoryGame />} />
-      <Route path='/memorygame/results' element={<Results />} />
-      <Route path='/music' element={<MusicApp />} />
-      <Route path='/survey' element={<SurveyApp />} />
-      <Route path='/survey/:id' element={<Survey />} />
-      <Route path='/survey/:id/responses' element={<Responses />} />
-      <Route path='/chat' element={<Chat />} />
-    </Routes>
-  </BrowserRouter>
+  <AppContext>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<App />} />
+        <Route path='/weather' element={<Weather />} />
+        <Route path='/dino' element={<Dino />} />
+        <Route path='/cripto' element={<Cripto />} />
+        <Route path='/quiz' element={<Quiz />} />
+        <Route path='/quiz/addquestion' element={<AddQuestion />} />
+        <Route path='/delivery' element={<DeliveryApp />} />
+        <Route path='/memorygame' element={<MemoryGame />} />
+        <Route path='/memorygame/results' element={<Results />} />
+        <Route path='/music' element={<MusicApp />} />
+        <Route path='/survey' element={<SurveyApp />} />
+        <Route path='/survey/:id' element={<Survey />} />
+        <Route path='/survey/:id/responses' element={<Responses />} />
+        <Route path='/chat' element={<Chat />} />
+      </Routes>
+    </BrowserRouter>
+  </AppContext>
 )

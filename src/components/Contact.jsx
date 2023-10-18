@@ -1,6 +1,10 @@
 import React from 'react'
+import text from '../assets/portfolio/text.json'
+import { useGlobalContext } from '../context'
 
 const Contact = () => {
+  const { language } = useGlobalContext()
+
   return (
     <div
       name='contacto'
@@ -9,9 +13,15 @@ const Contact = () => {
       <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
         <div className='pb-8 mt-56'>
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>
-            Contacto
+            {
+              language === 'english' ? text.english.contact : text.spanish.contacto
+            }
           </p>
-          <p className='py-6'>Envía el siguiente formulario para contactar conmigo</p>
+          <p className='py-6'>
+            {
+              language === 'english' ? text.english.description5 : text.spanish.descripcion5
+            }
+          </p>
         </div>
 
         <div className='flex justify-center items-center'>
@@ -27,7 +37,7 @@ const Contact = () => {
               className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
             />
             <input
-              type='text'
+              type='email'
               name='email'
               placeholder='Enter your email'
               className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
@@ -40,7 +50,9 @@ const Contact = () => {
             />
 
             <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>
-              Hablemos
+              {
+                language === 'english' ? text.english.button : text.spanish.boton
+              }
             </button>
           </form>
         </div>

@@ -1,0 +1,32 @@
+{
+    "english": {
+        "portfolio": "Portfolio",
+        "experience": "Experience",
+        "contact": "Contact",
+        "title": "Hello! I'm a FullStack Developer",
+        "description": "I have 3 years of experience developing software for the web. During this time, I have had the opportunity to work on exciting and challenging projects that have allowed me to improve my skills and knowledge in programming, web design and problem solving.",
+        "about1": "Hello! I am Roberto, a junior full stack developer passionate about technology and creating innovative solutions. I love learning and staying up to date with the latest trends and technologies, and I am constantly looking for new ways to improve my skills and knowledge.",
+        "about2": "My web development experience spans both front-end and back-end, and I have experience working with Es6, React, Node.js, Express, and MongoDB.",
+        "about3": "If you are looking for someone passionate about web development and committed to their work, do not hesitate to contact me.",
+        "work": "See some of my work here",
+        "description3": "Code & Description",
+        "technologies": "These are the technologies I have worked with",
+        "description5": "Submit the following form to contact me",
+        "button": "Let's talk"
+    },
+    "spanish": {
+        "portafolio": "Portafolio",
+        "experiencia": "Experiencia",
+        "contacto": "Contacto",
+        "titulo": "¡Hola! Soy un Full Stack Developer",
+        "descripcion": "Tengo 3 años de experiencia desarrollando software para la web. Durante este tiempo, he tenido la oportunidad de trabajar en proyectos emocionantes y desafiantes que me han permitido mejorar mis habilidades y conocimientos en programación, diseño web y resolución de problemas.",
+        "sobre1": "¡Hola! Soy Roberto, desarrollador junior full stack apasionado por la tecnología y la creación de soluciones innovadoras. Me encanta aprender y estar al día con las últimas tendencias y tecnologías, y estoy constantemente buscando nuevas formas de mejorar mis habilidades y conocimientos.",
+        "sobre2": "Mi experiencia en desarrollo web abarca tanto front-end como back-end, y tengo experiencia trabajando con Es6, React, Node.js, Express, y MongoDB.",
+        "sobre3": "Si buscas a alguien apasionado por el desarrollo web y que se comprometa con su trabajo, no dudes en contactar conmigo.",
+        "trabajos": "Mira algunos de mis trabajos aquí",
+        "descripcion3": "Codigo & Descripcion",
+        "tecnologias": "Estas son las tecnologías con las que he trabajado",
+        "descripcion5": "Envía el siguiente formulario para contactar conmigo",
+        "boton": "Hablemos"
+    }
+}
